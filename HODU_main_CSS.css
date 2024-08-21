@@ -25,55 +25,27 @@ p {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-header {
+main > header {
     display: flex;
     flex-direction: column;
 
-    height: 902px;
+    height: 798px;
     background-color: #f2e9d8;
 }
 
-header button {
-    text-align: center;
-
+.Middle_content > button {
     width: 140px;
     height: 50px;
     border-radius: 40px;
+
+    font-family: Pretendard;
+    font-size: 16px;
     font-weight: 700;
     line-height: 19.09px;
+    text-align: center;
 
     background-color: #d97652;
     color: #ffffff;
-}
-
-header section {
-    margin: 0 320px;
-}
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-.Top_navigation_bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    height: 102px;
-    background-color: #f2e9d8;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-
-    gap: 49px;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    text-align: left;
-
-    gap: 15px;
 }
 
 .Middle_content {
@@ -82,6 +54,7 @@ header nav ul {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    margin: 0 320px;
 
     background-image: url("./Logo_cat.png");
     background-repeat: no-repeat;
@@ -115,7 +88,6 @@ main > section {
     margin: 0 320px;
     padding: 0;
 }
-
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .First_section {
@@ -211,30 +183,39 @@ main > section {
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 hr {
-    color: #c4c4c4;
+    border-color: #c4c4c4;
     margin: 80px 320px 0px;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .Third_section {
-    margin-top: 68px;
+    margin: 68px 0 0 0;
     align-items: flex-start;
 }
 
 .Third_section > h2 {
     text-align: left;
+    margin: 0 320px;
 }
 
 .Third_section > p {
-    margin: 20px 0 48px;
     font-weight: 500 !important;
+    margin: 20px 320px 48px;
 }
 
 #daumRoughmapContainer1724052626418 {
     width: 1280px;
     height: 520px;
     border-radius: 12px;
+    margin: 0 320px;
+}
+
+.bottom {
+    height: 441px;
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
 }
 
 .subscribe {
@@ -243,13 +224,14 @@ hr {
     justify-content: center;
 
     gap: 163px;
-    margin-top: 80px;
+    margin: 0 320px;
     width: 1280px;
     height: 200px;
     border-radius: 30px;
     background: #263140;
     color: #ffffff;
     z-index: 100;
+    position: relative;
 }
 .text h2 {
     margin-bottom: 18px;
@@ -300,4 +282,12 @@ hr {
     color: #ffffff;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.bottom > img {
+    height: 340px;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    object-fit: cover;
+}

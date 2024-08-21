@@ -1,0 +1,121 @@
+#default_header {
+    display: flex;
+    flex-direction: column;
+
+    height: 102px;
+    width: 100%;
+
+    background-color: #f2e9d8;
+    z-index: 9999;
+}
+
+.Top_navigation_bar button {
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+    background-color: #d97652;
+    color: #ffffff;
+}
+
+.Top_navigation_bar {
+    margin: 0 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 102px;
+    background-color: #f2e9d8;
+}
+
+#default_header nav {
+    display: flex;
+    align-items: center;
+
+    gap: 49px;
+}
+
+#default_header nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+    gap: 15px;
+}
+
+#default_header a {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#top_btn {
+    position: fixed;
+    right: 24px;
+    bottom: 19px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    border-radius: 50%;
+    background: #ffffffcc;
+    background-image: url(./keyboard_arrow_down.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#top_btn:hover {
+    background-image: url(./keyboard_arrow_up.png);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Company_info {
+    display: flex;
+    height: 160px;
+
+    justify-content: space-between;
+    margin: 0 320px !important;
+    align-items: center;
+}
+
+.Company_info > img {
+    width: 226px;
+    height: 70px;
+}
+
+.Company_info nav {
+    display: flex;
+    gap: 20px;
+}
+
+.Company_info a {
+    display: flex;
+    background-color: #f29d52;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Company_info > div img {
+    width: 24px;
+    height: 24px;
+}
