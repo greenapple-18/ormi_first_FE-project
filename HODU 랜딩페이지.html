@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./reset.css" />
         <link rel="stylesheet" href="./HODU_main_CSS.css" />
         <link rel="stylesheet" href="./default_CSS_setting.css" />
+        <!-- <link rel="stylesheet" href="./temp_css1.css" /> -->
+        <!-- <link rel="stylesheet" href="./temp_css2.css" /> -->
     </head>
 
     <body>
@@ -103,12 +105,25 @@
                         <div class="email">
                             <input
                                 type="email"
+                                id="emailInput"
                                 placeholder="Enter your e-mail address"
                             />
-                            <button>Subscribe</button>
+                            <button id="subscribeButton">Subscribe</button>
                         </div>
                     </div>
                     <img src="./Third_section_cat.png" alt="Hodu Image8" />
+                </div>
+
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <img src="./Modal_section_cat.png" alt="Hodu Image9" />
+                        <h2>Thank you!</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing
+                            industry.
+                        </p>
+                        <button id="modalOkButton">OK! I love HODU</button>
+                    </div>
                 </div>
             </section>
         </main>
@@ -142,7 +157,7 @@
         </footer>
     </body>
 
-    <!-- <script src="./HODU_function.js"></script> -->
+    <script src="./HODU_main_JS.js"></script>
     <script src="./default_JS_setting.js"></script>
 
     <script
