@@ -7,6 +7,9 @@
 
     background-color: #f2e9d8;
     z-index: 9999;
+    position: fixed;
+    top: 0;
+    transition: transform 0.3s ease;
 }
 
 .Top_navigation_bar button {
@@ -25,9 +28,9 @@
 }
 
 .Top_navigation_bar {
-    margin: 0 320px;
+    gap: 756px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     height: 102px;
