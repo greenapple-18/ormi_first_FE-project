@@ -41,4 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = "none";
         document.body.classList.remove("modal-open"); // 스크롤 해제
     }
+
+    const menuButton = document.getElementById("menu_button");
+    const sideMenu = document.getElementById("side_menu");
+
+    menuButton.addEventListener("click", () => {
+        sideMenu.classList.toggle("active");
+    });
 });

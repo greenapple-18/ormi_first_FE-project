@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="./reset.css" />
         <link rel="stylesheet" href="./HODU_main_CSS.css" />
         <link rel="stylesheet" href="./default_CSS_setting.css" />
-        <!-- <link rel="stylesheet" href="./temp_css1.css" /> -->
-        <!-- <link rel="stylesheet" href="./temp_css2.css" /> -->
+        <link rel="stylesheet" href="./mobile_default_CSS_setting.css" />
+        <link rel="stylesheet" href="./mobile_HODU_main_CSS.css" />
     </head>
 
     <body>
@@ -25,13 +25,31 @@
                     <button id="default_download_btn">Download</button>
                 </nav>
             </section>
+            <!-- 모바일 메뉴 버튼 -->
+            <button id="menu_button">
+                <img src="menu_open.png" alt="menu open button" />
+            </button>
+
+            <!-- 모바일 사이드 메뉴 -->
+            <aside id="side_menu">
+                <button id="close_menu_button">
+                    <img src="menu_close.png" alt="menu close button" />
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                    <button id="default_download_btn">Download</button>
+                </nav>
+            </aside>
         </header>
         <main>
             <header>
                 <section class="Middle_content">
                     <h1>
-                        Lorem Ipsum is simply<br />
-                        dummy text of the printing and
+                        Lorem Ipsum is simply dummy text of the printing and
                     </h1>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and
@@ -41,6 +59,11 @@
                     </p>
                     <button>Download</button>
                 </section>
+                <img
+                    src="./Logo_cat.png"
+                    alt="HODU logo image"
+                    id="mobile_logo_img"
+                />
             </header>
 
             <section class="First_section">
@@ -116,7 +139,7 @@
 
                 <div id="modal" class="modal">
                     <div class="modal-content">
-                        <img src="./Modal_section_cat.png" alt="Hodu Image9" />
+                        <!-- <img src="./Modal_section_cat.png" alt="Hodu Image9" /> -->
                         <h2>Thank you!</h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing
@@ -129,31 +152,33 @@
         </main>
 
         <aside class="scroll-to-top">
-            <button id="top_btn">
-                <!-- <img src="scroll-top-btn.png" alt="Scroll to Top Button" /> -->
-            </button>
+            <button id="top_btn"></button>
         </aside>
 
         <footer>
-            <div class="Company_info">
-                <img src="Logo.png" alt="Page logo" />
-                <div>
-                    <nav>
-                        <a href="/blog">
-                            <img src="blog.png" alt="Blog icon"
-                        /></a>
-                        <a href="/instagram">
-                            <img src="instagram.png" alt="Instagram icon"
-                        /></a>
-                        <a href="/facebook">
-                            <img src="facebook.png" alt="Facebook icon"
-                        /></a>
-                        <a href="/youtube">
-                            <img src="youtube.png" alt="Youtube icon"
-                        /></a>
-                    </nav>
-                </div>
+            <img src="Logo.png" alt="Page logo" />
+            <div>
+                <nav id="default_footer">
+                    <a href="/blog"> <img src="blog.png" alt="Blog icon" /></a>
+                    <a href="/instagram">
+                        <img src="instagram.png" alt="Instagram icon"
+                    /></a>
+                    <a href="/facebook">
+                        <img src="facebook.png" alt="Facebook icon"
+                    /></a>
+                    <a href="/youtube">
+                        <img src="youtube.png" alt="Youtube icon"
+                    /></a>
+                </nav>
             </div>
+            <nav id="mobile_footer">
+                <ul class="footer_nav_layout">
+                    <a href="/About">About</a>
+                    <a href="/Blog">Blog</a>
+                    <a href="/Support">Support</a>
+                    <a href="/Terms_of_Use">Terms of Use</a>
+                </ul>
+            </nav>
         </footer>
     </body>
 
