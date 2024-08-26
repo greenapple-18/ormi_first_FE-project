@@ -62,7 +62,6 @@
         background-position: bottom right;
     }
 
-    /* 예시와 같게 하기 위해 width를 695px -> 750px으로 변경 */
     .middle-content > h1 {
         display: flex;
 
@@ -70,7 +69,6 @@
         height: 120px;
     }
 
-    /* 예시와 같게 하기 위해 width를 420px -> 450px으로 변경 */
     .middle-content > p {
         display: flex;
 
