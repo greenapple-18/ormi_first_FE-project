@@ -1,0 +1,387 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+
+@media (min-width: 390px) and (max-width: 798px) {
+    html {
+        font-family: "Pretendard" !important;
+        color: #000000 !important;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    h1 {
+        align-items: center !important;
+
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        line-height: 30px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        line-height: 30px !important;
+    }
+
+    p {
+        align-items: center;
+
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 20px !important;
+    }
+
+    body.modal-open {
+        overflow: hidden;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    main > header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 718px;
+        width: 100%;
+        margin-top: 76px;
+        background-color: #f2e9d8;
+    }
+
+    .middle-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+
+        width: 100%;
+        gap: 30px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    #mobile-logo-img {
+        width: 197px;
+        height: 422px;
+    }
+
+    .middle-content > h1 {
+        width: 251px;
+        height: 90px;
+    }
+
+    .middle-content > p {
+        width: 270px;
+        height: 98px;
+        line-height: 18px !important;
+        font-size: 14px !important;
+    }
+
+    .middle-content > button {
+        width: 114px;
+        height: 40px;
+        border-radius: 40px;
+        text-align: center;
+        background-color: #d97652;
+        color: #ffffff;
+
+        font-family: "Pretendard";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    main > header > img {
+        width: 197px;
+        height: 422px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    main > section {
+        display: flex;
+        flex-direction: column;
+
+        width: 326px;
+        align-items: center;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .first-section {
+        margin-top: 40px;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .first-section > img {
+        width: 326px;
+        height: 190px;
+        border-radius: 18px;
+        box-shadow: 10px 10px 20px 0px #00000040;
+    }
+
+    .first-section p {
+        margin-top: 20px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .second-section {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .second-section > h1 {
+        color: #d97652;
+    }
+
+    .second-section > p {
+        margin-top: 40px;
+    }
+
+    .second-section span {
+        color: #d97652;
+
+        font-weight: 700;
+    }
+
+    .second-section > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 40px;
+        gap: 32px;
+    }
+
+    .second-section img {
+        width: 326px;
+        height: 326px;
+        gap: 0px;
+        border-radius: 18px;
+        box-shadow: 10px 10px 20px 0px #00000040;
+    }
+
+    .second-section_div2 {
+        margin-top: 40px;
+    }
+
+    .second-section > h3 {
+        margin-top: 60px;
+
+        font-family: "Pretendard";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .second-section > button {
+        width: 143px;
+        height: 50px;
+        border-radius: 40px;
+        margin-top: 28px;
+        background: #d97652;
+        color: #ffffff;
+
+        font-family: "Pretendard";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    hr {
+        width: calc(100% - 64px);
+        border: 0;
+        border-top: 1px solid #c4c4c4;
+        margin: 60px 32px 40px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .third-section {
+        align-items: start;
+    }
+
+    .third-section > h2 {
+        text-align: left;
+    }
+
+    .third-section > p {
+        margin: 16px 0 28px;
+        color: #606367;
+
+        font-weight: 500 !important;
+    }
+
+    #daumRoughmapContainer1724052626418 {
+        width: 326px !important;
+        height: 132px !important;
+        border-radius: 12px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+
+        height: 520px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+
+        height: 348px;
+        gap: 30px;
+        border-radius: 18px;
+        padding: 0 32px;
+
+        background: #263140;
+        color: #ffffff;
+        z-index: 100;
+    }
+
+    .text {
+        align-items: start;
+    }
+
+    .text h2 {
+        margin-bottom: 18px;
+        width: 187px;
+    }
+
+    .text > p {
+        width: 262px;
+
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 18px !important;
+    }
+
+    #email-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 214px;
+        height: 40px;
+        border-radius: 60px;
+        border: none;
+        padding-left: 48px;
+        background: url("../image/mail.png") no-repeat 10px center #ffffff;
+        background-size: 18px 18px;
+        background-position: 16px center;
+
+        font-family: "Pretendard";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    #subscribe-button {
+        transform: translateX(145px);
+
+        width: 115px;
+        height: 40px;
+        border-radius: 40px;
+        margin-top: 20px;
+        text-align: center;
+        background: #d97652;
+        color: #ffffff;
+
+        font-family: "Pretendard";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .bottom > img {
+        position: absolute;
+        bottom: 0;
+
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        object-fit: contain;
+
+        z-index: 0;
+    }
+
+    .modal {
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+
+        z-index: 9999;
+    }
+
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        text-align: center;
+        background-image: url(../image/Modal_background.png);
+
+        z-index: 9999;
+    }
+
+    .modal-content > img {
+        width: 60px;
+        height: 62px;
+        margin-bottom: 24px;
+    }
+
+    .modal-content > h2 {
+        margin-bottom: 10px;
+        color: #d97652;
+    }
+
+    .modal-content > p {
+        margin-bottom: 28px;
+
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .modal-content > button {
+        width: 158px;
+        height: 40px;
+        border-radius: 40px;
+        text-align: center;
+        background: #d97652;
+        color: #ffffff;
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+}
