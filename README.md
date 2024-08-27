@@ -117,10 +117,12 @@ gantt
         </tr>
         <tr>
             <td>
-                <img src="html.png" width="100%" alt="HTML 화면">
+                <img src=![html](https://github.com/user-attachments/assets/05ff51b8-0a6f-4beb-855d-89d5c26101d8)
+ width="100%" alt="HTML 화면">
             </td>
             <td>
-                <img src="mobile.png" width="100%" alt="모바일 화면">
+                <img src=![mobile](https://github.com/user-attachments/assets/a71823cf-6715-4cec-82e0-7e06a5177fda)
+ width="100%" alt="모바일 화면">
             </td>
         </tr>
         <tr>
@@ -129,17 +131,20 @@ gantt
         </tr>
         <tr>
             <td>
-                <img src="modal.png" width="100%" alt="HTML 모달창">
+                <img src=![modal](https://github.com/user-attachments/assets/982d8342-5906-4a20-adbe-c9f6e4d85cb3)
+ width="100%" alt="HTML 모달창">
             </td>
             <td>
-                <img src="mobile modal.png" width="100%" alt="모바일 모달창">
+                <img src=![mobile modal](https://github.com/user-attachments/assets/7d40372e-822c-4538-b2cf-eba71a3559ff)
+ width="100%" alt="모바일 모달창">
             </td>
         </tr>
         <tr>
             <td><strong>메뉴 항목 (모바일)</strong></td>
         </tr>
         <td>
-            <img src="menu-tab.png" width="100%" alt="모바일 메뉴 항목">
+            <img src=![menu-tab](https://github.com/user-attachments/assets/389e6c18-48b9-4a33-a93e-74f2851ed67f)
+ width="100%" alt="모바일 메뉴 항목">
         </td>
     </tbody>
 </table>
