@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+
 @media (min-width: 390px) and (max-width: 798px) {
     #default-header {
         display: flex;
@@ -32,7 +34,7 @@
         height: 28px;
     }
 
-    #menu-button {
+    #menu-button > img {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,7 +67,7 @@
         transform: translateX(0);
     }
 
-    #close-menu-button {
+    #close-menu-button > img {
         display: flex;
 
         position: absolute;
@@ -74,7 +76,6 @@
 
         width: 32px;
         height: 32px;
-        color: white;
     }
 
     #side-menu ul {
@@ -86,7 +87,7 @@
     }
 
     #side-menu li {
-        font-family: Pretendard;
+        font-family: "Pretendard";
         font-size: 16px;
         font-weight: 700;
         line-height: 20px;
@@ -98,10 +99,9 @@
         height: 40px;
         border-radius: 40px;
         margin: 50px 0 0 40px;
-        text-align: center;
         background: #d97652;
 
-        font-family: Pretendard;
+        font-family: "Pretendard";
         font-size: 14px;
         font-weight: 700;
         line-height: 18px;
@@ -113,7 +113,6 @@
     #top-btn {
         position: fixed;
         right: 24px;
-        bottom: 19px;
 
         width: 40px;
         height: 40px;
@@ -184,13 +183,12 @@
         display: flex;
         flex-direction: column;
 
+        text-align: right;
         gap: 16px;
     }
 
     #mobile-footer a {
-        text-align: right;
-
-        font-family: Pretendard;
+        font-family: "Pretendard";
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
