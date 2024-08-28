@@ -36,7 +36,6 @@
 
         position: fixed;
         top: 0;
-        transition: transform 0.3s ease;
 
         height: 102px;
         width: 100%;
