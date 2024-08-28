@@ -6,6 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     handleScroll();
 
+    window.addEventListener("scroll", handleScroll);
+
+    topButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
     function handleScroll() {
         adjustHeaderPosition();
         toggleTopButtonVisibility();
@@ -40,12 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
             topButton.style.display = "none";
         }
     }
-
-    window.addEventListener("scroll", handleScroll);
-
-    topButton.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    });
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
