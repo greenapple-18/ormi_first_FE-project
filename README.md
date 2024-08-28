@@ -110,36 +110,25 @@ gantt
 
 <table border="1" cellpadding="10">
     <tbody>
-        <!-- 제목 행 -->
         <tr>
             <td><strong>HTML 화면</strong></td>
             <td><strong>모바일 화면</strong></td>
         </tr>
         <tr>
             <td>
-                <img src="html.png" width="100%" alt="HTML 화면">
+                <img src="html.gif" width="100%" alt="HTML 화면">
             </td>
             <td>
-                <img src= "mobile.png" width="100%" alt="모바일 화면">
+                <img src= "mobile.gif" width="100%" alt="모바일 화면">
             </td>
         </tr>
-        <tr>
-            <td><strong>HTML 모달창</strong></td>
-            <td><strong>모바일 모달창</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <img src= "modal.png" width="100%" alt="HTML 모달창">
-            </td>
-            <td>
-                <img src="mobile modal.png" width="100%" alt="모바일 모달창">
-            </td>
-        </tr>
-        <tr>
-            <td><strong>메뉴 항목 (모바일)</strong></td>
-        </tr>
-        <td>
-            <img src="menu-tab.png" width="100%" alt="모바일 메뉴 항목">
-        </td>
     </tbody>
 </table>
+
+## ❗ 프로젝트를 진행하며 느낀점
+
+-   **코드 설계** : 스타일과 변수명, 함수명 등을 일관되게 유지하며, 코드의 가독성 증가, 유지 보수성 증가 등을 생각하며 코드를 설계하는 것이 생각보다 어렵다는 것을 느꼈습니다. 특히 하나의 웹 페이지가 아닌 다른 페이지에서도 같은 CSS와 JS를 사용했을 때 발생할 수 있는 문제 등을 고려하며 코드를 설계해야 하는 필요성을 느끼게 되었습니다.
+
+-   **반응형 웹 디자인** : 반응형 웹 디자인은 사용자 편의성과 접근성을 크게 향상시킬 수 있는 필수적인 기술이지만, 그만큼 디자인과 개발 측면에서 많은 고려가 필요하고, 성능 최적화에 대한 신경도 많이 써야 한다는 점을 알게 되었습니다.
+
+-   **프론트엔드 개발자와의 원활한 소통** : 프론트엔드를 직접 경험해본 덕분에 프론트엔드 개발자들과 더 원활하게 소통할 수 있을 것이라 생각합니다. 서로의 어려움을 이해하고, 기술적 요구사항을 명확하게 전달하여 협업할 때 더 나은 결과를 도출할 수 있을 것 같습니다. 이를 통해 프로젝트 진행 속도를 높이고, 코드의 일관성 및 시스템 전체의 품질을 향상시키는 데 큰 도움이 될 것 같습니다.
