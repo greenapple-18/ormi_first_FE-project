@@ -55,11 +55,11 @@
 │ ├── 📱 mobile-default-css-setting.css
 │ └── 📱 mobile-hodu-main-css.css
 │
-├── js/
+├── 🗂️ js/
 │ ├── 🖥️ default_JS_setting.js
 │ └── 🖥️ HODU_main_JS.js
 │
-├── images/
+├── 🗂️ images/
 │ ├── 🖼️ Logo.png
 │ ├── 🖼️ Logo_cat.png
 │ ├── 🖼️ First_section_cat.png
